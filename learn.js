@@ -121,3 +121,26 @@
 // console.log(today.getHours());
 // console.log(today.getMinutes());
 // console.log(today.getSeconds());
+
+
+
+//DOM manipulation
+
+let elm = document.getElementById('click me');
+console.log(elm);
+
+// let elemClass = document.getElementsByClassName('container');
+// console.log(elm);
+
+// //elemClass[0].style.background = "yellow";
+// elemClass[0].classList.add("bg-primary");                    
+
+let paragraphs = document.getElementsByClassName('container');
+paragraphs[0].classList.add("bg-primary");
+
+// Selecting the Query
+sel = document.querySelector('.container');
+console.log(sel);
+
+sel = document.querySelectorAll('.container');
+console.log(sel);
