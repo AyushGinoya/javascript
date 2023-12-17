@@ -133,7 +133,7 @@ console.log(elm);
 // console.log(elm);
 
 // //elemClass[0].style.background = "yellow";
-// elemClass[0].classList.add("bg-primary");                     
+// elemClass[0].classList.add("bg-primary");                      
 
 let paragraphs = document.getElementsByClassName('container');
 paragraphs[0].classList.add("bg-primary");
